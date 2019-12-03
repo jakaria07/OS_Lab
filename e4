@@ -1,0 +1,13 @@
+var="Rahim"
+case $var in
+"Karim" )
+echo "Karim is good"
+;;
+"Rahim" )
+echo "Rahim is bad"
+;;
+* )
+echo "Unknown"
+;;
+
+esac
