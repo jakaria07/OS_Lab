@@ -1,0 +1,5 @@
+echo "Write Filename:"
+read filename
+echo "you want to find:"
+read find
+grep $find $filename
